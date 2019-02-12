@@ -3,4 +3,5 @@ def reverse_each_word(sentence)
   array = sentence.split
   array.map(&:reverse!)
   sentence = array.join(" ")
+  array.collect
 end  
